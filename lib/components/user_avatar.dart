@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:newapp_functions/config/app_icons.dart';
+import 'package:newapp_functions/config/image_assets.dart';
 
 class UserAvatar extends StatelessWidget {
   final double size;

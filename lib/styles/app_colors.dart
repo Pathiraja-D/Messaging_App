@@ -8,5 +8,6 @@ class AppColors {
   static const disableButton = Color(0xffFBD512);
   static const background = Color(0xff1A2947);
   static const black = Color(0xff000000);
+  static const grey = Color(0xff283140);
   static final white = const Color(0xffffffff).withOpacity(0.6);
 }

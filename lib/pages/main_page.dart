@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_svg/flutter_svg.dart';
-import 'package:newapp_functions/config/app_icons.dart';
+import 'package:newapp_functions/config/image_assets.dart';
 import 'package:newapp_functions/pages/home_page.dart';
 import 'package:newapp_functions/pages/profile_page.dart';
 import 'package:newapp_functions/components/bottom_navigation.dart';

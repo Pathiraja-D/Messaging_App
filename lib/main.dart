@@ -15,9 +15,9 @@ class MyApp extends StatelessWidget {
       debugShowCheckedModeBanner: false,
       theme: ThemeData(
           fontFamily: 'Urbanist',
-          scaffoldBackgroundColor: AppColors.background,
+          scaffoldBackgroundColor: AppColors.grey,
           brightness: Brightness.dark),
-      initialRoute: AppRoutes.login,
+      initialRoute: AppRoutes.startPage,
       routes: AppRoutes.pages,
     );
   }

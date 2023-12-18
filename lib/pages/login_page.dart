@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:newapp_functions/components/text_field.dart';
-import 'package:newapp_functions/config/app_icons.dart';
+import 'package:newapp_functions/config/image_assets.dart';
+import 'package:newapp_functions/config/app_routes.dart';
 
 class LoginPage extends StatefulWidget {
   const LoginPage({super.key});
@@ -72,7 +73,9 @@ class _LoginPageState extends State<LoginPage> {
                 SizedBox(
                   width: 250,
                   child: ElevatedButton(
-                      onPressed: () {},
+                      onPressed: () {
+                        Navigator.of(context).pushNamed(AppRoutes.home);
+                      },
                       style: ElevatedButton.styleFrom(
                         backgroundColor: Colors.amber,
                         foregroundColor: Colors.black,
