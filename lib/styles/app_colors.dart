@@ -10,4 +10,5 @@ class AppColors {
   static const black = Color(0xff000000);
   static const grey = Color(0xff283140);
   static final white = const Color(0xffffffff).withOpacity(0.6);
+  static const pink = Color(0xffFF6677);
 }

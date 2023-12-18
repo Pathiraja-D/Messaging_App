@@ -1,7 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:newapp_functions/config/app_routes.dart';
 import 'package:newapp_functions/config/image_assets.dart';
-import 'package:newapp_functions/styles/app_text.dart';
 
 class Start_Page extends StatelessWidget {
   const Start_Page({super.key});
